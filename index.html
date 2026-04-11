@@ -2,53 +2,33 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sudoku365 Classic Support</title>
-  <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Support</title>
+  <link rel="stylesheet" href="shared/css/landing.css">
 </head>
 
 <body>
-  <header>
-    <h1>Sudoku365 Classic Support</h1>
-    <p>Need help? then this page is for you.</p>
-    <div class="header-divider"></div>
-  </header>
+  <main class="landing-shell">
+    <div class="landing-copy">
+      <p class="eyebrow">Support Center</p>
+      <h1>Choose an app</h1>
+      <p class="subtitle">Select the support page you want to open.</p>
+    </div>
 
-  <main>
-    <a href="mailto:devdellsstudio@gmail.com" style="text-decoration:none;">
-      <div class="contact-card">
-        <h2>Email</h2>
-        <p>Reach me directly at devdellsstudio@gmail.com</p>
-      </div>
-    </a>
+    <section class="app-grid" aria-label="App support pages">
+      <!-- Duplicate one app-card block to add a new app to the landing page. -->
+      <a class="app-card" href="sudoku/" aria-label="Open Sudoku365 Classic support">
+        <img class="app-card__art" src="shared/icons/sudoku365-classic.svg" alt="Sudoku365 Classic icon">
+        <span class="app-card__label">Sudoku365 Classic</span>
+      </a>
 
-    <a href="https://github.com/Filipll97/sudoku365classic-support/issues/new" target="_blank"
-      style="text-decoration:none;">
-      <div class="contact-card">
-        <h2>GitHub Issues</h2>
-        <p>Report bugs or request features on our GitHub Issues</p>
-      </div>
-    </a>
-
-    <a href="faq/faq.html" style="text-decoration:none;">
-      <div class="contact-card">
-        <h2>FAQ</h2>
-        <p>Find answers to common questions on our FAQ page</p>
-      </div>
-    </a>
-
-    <a href="privacy/privacy.html" style="text-decoration:none;">
-      <div class="contact-card">
-        <h2>Privacy Policy</h2>
-        <p>Read privacy policy for details on data and user information.</p>
-      </div>
-    </a>
+      <a class="app-card" href="calculator/" aria-label="Open Calculator support">
+        <img class="app-card__art" src="shared/icons/calculator-app.svg" alt="Calculator icon">
+        <span class="app-card__label">Calculator</span>
+      </a>
+    </section>
   </main>
-
-  <footer>
-    &copy; 2025 SUDOKU365 CLASSIC. All rights reserved.
-  </footer>
 </body>
 
 </html>

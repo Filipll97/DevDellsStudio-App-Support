@@ -1,30 +1,22 @@
-# Sudoku365 Classic – Support
+# App Support Pages
 
-This repository hosts the official **support page** for the iOS app **Sudoku365 Classic**.  
-It contains a simple static website that provides users with multiple ways to get in touch, including email, social links, and FAQs. 
+This repository hosts a shared GitHub Pages support site for multiple apps.
 
----
+## Structure
 
-## 🛠️ Reporting Bugs
+- `/` is the landing page where users select an app.
+- `/sudoku/` contains the Sudoku365 Classic support pages.
+- `/calculator/` contains the calculator support pages.
+- `/shared/` contains assets used across multiple app pages.
 
-If you encounter a problem with **Sudoku365 Classic**, please open a [GitHub Issue](../../issues) in this repository.  
-When submitting a bug report, try to include:  
-- The version of the app you are using  
-- Your device and iOS version  
-- Steps to reproduce the issue  
-- Screenshots if applicable  
+## Adding Another App
 
----
+1. Create a new app folder at the repository root, for example `/weather/`.
+2. Add that app's `index.html`, `faq/`, `privacy/`, and any app-specific assets.
+3. Add one more `.app-card` entry in `/index.html`.
+4. Add a matching icon file in `/shared/icons/`.
 
-## 📬 Contact & Support
+## Reporting Bugs
 
-Aside from GitHub Issues, you can reach out via the following methods (also listed on the support site):  
-- **Email:** [devdellsstudio@gmail.com](devdellsstudio@gmail.com)  
-- **Support Page:** https://yourusername.github.io/sudoku365classic-support
-
----
-
-## 📄 License
-
-The contents of this repository are © 2025 **Sudoku365 Classic**.  
-All rights reserved.
+If you encounter a problem with any app listed here, open a GitHub issue in this repository and include the app name,
+app version, device, OS version, reproduction steps, and screenshots when relevant.

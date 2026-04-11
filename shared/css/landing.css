@@ -1,0 +1,140 @@
+:root {
+  --bg-top: #140f21;
+  --bg-bottom: #040507;
+  --panel: rgba(255, 255, 255, 0.06);
+  --panel-border: rgba(255, 255, 255, 0.14);
+  --text-main: #f7f4ff;
+  --text-muted: #b6b0c9;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.42);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  color: var(--text-main);
+  background:
+    radial-gradient(circle at top, rgba(218, 77, 115, 0.28), transparent 32%),
+    radial-gradient(circle at 80% 20%, rgba(89, 140, 255, 0.22), transparent 28%),
+    linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+}
+
+.landing-shell {
+  width: min(1080px, calc(100% - 32px));
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  gap: 40px;
+  padding: 48px 0;
+}
+
+.landing-copy {
+  text-align: center;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.82rem;
+  color: #ffb8c9;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 6vw, 4.8rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+}
+
+.subtitle {
+  margin-top: 14px;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 260px);
+  justify-content: center;
+  gap: 28px;
+}
+
+.app-card {
+  position: relative;
+  overflow: hidden;
+  width: 260px;
+  aspect-ratio: 1 / 1;
+  border-radius: 24px;
+  border: 1px solid var(--panel-border);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: inherit;
+  transform: scale(1);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.app-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 20%, rgba(0, 0, 0, 0.58) 100%);
+}
+
+.app-card:hover,
+.app-card:focus-visible {
+  transform: scale(1.03);
+  border-color: rgba(255, 255, 255, 0.32);
+  box-shadow: 0 32px 70px rgba(0, 0, 0, 0.5);
+}
+
+.app-card:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+
+.app-card__art {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.app-card__label {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 18px;
+  z-index: 1;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 640px) {
+  .landing-shell {
+    width: min(100% - 24px, 560px);
+    gap: 28px;
+    padding: 32px 0;
+  }
+
+  .app-grid {
+    grid-template-columns: minmax(0, 320px);
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .app-card {
+    width: 100%;
+  }
+}

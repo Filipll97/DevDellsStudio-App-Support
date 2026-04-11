@@ -1,0 +1,44 @@
+<svg width="1200" height="1360" viewBox="0 0 1200 1360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1360" fill="#08121A"/>
+  <rect width="1200" height="1360" fill="url(#bg)"/>
+  <circle cx="1006" cy="213" r="230" fill="#67E8F9" fill-opacity="0.2"/>
+  <circle cx="138" cy="1178" r="200" fill="#F97316" fill-opacity="0.22"/>
+  <rect x="252" y="116" width="696" height="1128" rx="56" fill="#0F172A" fill-opacity="0.92" stroke="#E2E8F0" stroke-opacity="0.18" stroke-width="4"/>
+  <rect x="314" y="198" width="572" height="224" rx="28" fill="#E0F2FE"/>
+  <text x="354" y="340" fill="#0F172A" font-family="Arial, sans-serif" font-size="118" font-weight="700">128.64</text>
+  <g fill="#162132">
+    <rect x="314" y="482" width="148" height="148" rx="28"/>
+    <rect x="526" y="482" width="148" height="148" rx="28"/>
+    <rect x="738" y="482" width="148" height="148" rx="28"/>
+    <rect x="314" y="686" width="148" height="148" rx="28"/>
+    <rect x="526" y="686" width="148" height="148" rx="28"/>
+    <rect x="738" y="686" width="148" height="148" rx="28"/>
+    <rect x="314" y="890" width="148" height="148" rx="28"/>
+    <rect x="526" y="890" width="148" height="148" rx="28"/>
+    <rect x="738" y="890" width="148" height="352" rx="28" fill="#EA580C"/>
+    <rect x="314" y="1094" width="360" height="148" rx="28"/>
+  </g>
+  <g fill="#F8FAFC" font-family="Arial, sans-serif" font-size="80" font-weight="700" text-anchor="middle">
+    <text x="388" y="576">7</text>
+    <text x="600" y="576">8</text>
+    <text x="812" y="576">9</text>
+    <text x="388" y="780">4</text>
+    <text x="600" y="780">5</text>
+    <text x="812" y="780">6</text>
+    <text x="388" y="984">1</text>
+    <text x="600" y="984">2</text>
+    <text x="812" y="1188">=</text>
+    <text x="494" y="1188">0</text>
+  </g>
+  <g fill="#E0F2FE" font-family="Arial, sans-serif" font-size="80" font-weight="700" text-anchor="middle">
+    <text x="812" y="984">+</text>
+  </g>
+  <text x="140" y="1196" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="112" font-weight="700">Calculator</text>
+  <text x="140" y="1280" fill="#7DD3FC" font-family="Arial, sans-serif" font-size="68" font-weight="700">SUPPORT</text>
+  <defs>
+    <linearGradient id="bg" x1="82" y1="72" x2="1127" y2="1264" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+</svg>
