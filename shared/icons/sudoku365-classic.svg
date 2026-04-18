@@ -1,0 +1,42 @@
+<svg width="1200" height="1360" viewBox="0 0 1200 1360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1360" fill="#111827"/>
+  <rect width="1200" height="1360" fill="url(#bg)"/>
+  <circle cx="1010" cy="190" r="240" fill="#F59E0B" fill-opacity="0.24"/>
+  <circle cx="190" cy="1160" r="220" fill="#EF4444" fill-opacity="0.2"/>
+  <rect x="168" y="186" width="864" height="864" rx="40" fill="#F8FAFC" fill-opacity="0.95"/>
+  <rect x="208" y="226" width="784" height="784" rx="16" fill="#FFF7ED"/>
+  <path d="M469.333 226V1010" stroke="#1F2937" stroke-width="18"/>
+  <path d="M730.667 226V1010" stroke="#1F2937" stroke-width="18"/>
+  <path d="M208 487.333H992" stroke="#1F2937" stroke-width="18"/>
+  <path d="M208 748.667H992" stroke="#1F2937" stroke-width="18"/>
+  <path d="M295.111 226V1010" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M382.222 226V1010" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M556.444 226V1010" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M643.556 226V1010" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M817.778 226V1010" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M904.889 226V1010" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M208 313.111H992" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M208 400.222H992" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M208 574.444H992" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M208 661.556H992" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M208 835.778H992" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <path d="M208 922.889H992" stroke="#1F2937" stroke-width="8" stroke-opacity="0.45"/>
+  <text x="276" y="381" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">5</text>
+  <text x="806" y="381" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">2</text>
+  <text x="544" y="470" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">8</text>
+  <text x="278" y="642" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">7</text>
+  <text x="801" y="642" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">6</text>
+  <text x="454" y="730" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">3</text>
+  <text x="721" y="730" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">9</text>
+  <text x="277" y="903" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">1</text>
+  <text x="544" y="903" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">4</text>
+  <text x="807" y="991" fill="#111827" font-family="Arial, sans-serif" font-size="108" font-weight="700">8</text>
+  <text x="160" y="1196" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="118" font-weight="700">Sudoku365</text>
+  <text x="160" y="1280" fill="#FDBA74" font-family="Arial, sans-serif" font-size="72" font-weight="700">CLASSIC</text>
+  <defs>
+    <linearGradient id="bg" x1="104" y1="93" x2="1118" y2="1273" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+</svg>

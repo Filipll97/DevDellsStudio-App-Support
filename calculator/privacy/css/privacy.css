@@ -1,0 +1,194 @@
+:root {
+  --bg: #071118;
+  --bg-accent: #0d2330;
+  --panel: rgba(8, 24, 32, 0.8);
+  --panel-border: rgba(125, 211, 252, 0.18);
+  --text-main: #eefcff;
+  --text-muted: #9fc1cb;
+  --accent: #7dd3fc;
+  --accent-strong: #38bdf8;
+  --card-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top right, rgba(125, 211, 252, 0.16), transparent 30%),
+    radial-gradient(circle at left 20%, rgba(249, 115, 22, 0.16), transparent 30%),
+    linear-gradient(180deg, var(--bg-accent) 0%, var(--bg) 100%);
+  color: var(--text-main);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 48px 16px 28px;
+}
+
+.hero__content,
+.policy-layout,
+footer {
+  width: min(1080px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.hero__content {
+  background: linear-gradient(135deg, rgba(8, 24, 32, 0.94), rgba(8, 24, 32, 0.72));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 32px;
+  padding: 32px;
+  box-shadow: var(--card-shadow);
+  backdrop-filter: blur(14px);
+}
+
+.hero__back {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 22px;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.hero__back:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-main);
+}
+
+.hero__eyebrow,
+.policy-section__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.78rem;
+  color: var(--accent);
+}
+
+.hero h1 {
+  margin-top: 16px;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  letter-spacing: -0.045em;
+  line-height: 0.95;
+}
+
+.hero__lede {
+  max-width: 720px;
+  margin-top: 18px;
+  color: var(--text-muted);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.policy-layout {
+  display: grid;
+  gap: 20px;
+  padding: 0 0 40px;
+}
+
+.policy-section,
+.policy-note {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 28px;
+  padding: 24px 26px;
+  box-shadow: var(--card-shadow);
+  backdrop-filter: blur(14px);
+}
+
+.policy-meta {
+  color: var(--text-muted);
+}
+
+.policy-section h2,
+.policy-note h2 {
+  margin-top: 12px;
+  font-size: 1.45rem;
+  letter-spacing: -0.03em;
+}
+
+.policy-section p,
+.policy-note p {
+  margin-top: 12px;
+  color: var(--text-muted);
+  line-height: 1.68;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  border-radius: 16px;
+  font-weight: 700;
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.button--primary {
+  background: linear-gradient(135deg, #7dd3fc 0%, #f97316 100%);
+  color: #091217;
+  box-shadow: 0 14px 30px rgba(56, 189, 248, 0.2);
+}
+
+.button--secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-main);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+footer {
+  padding: 10px 0 34px;
+  color: #76949d;
+  font-size: 0.94rem;
+}
+
+@media (max-width: 780px) {
+  .hero {
+    padding-top: 28px;
+  }
+
+  .hero__content {
+    padding: 24px;
+    border-radius: 26px;
+  }
+
+  .policy-section,
+  .policy-note {
+    border-radius: 22px;
+    padding: 22px;
+  }
+
+  .button-row {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
