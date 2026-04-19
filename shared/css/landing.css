@@ -131,12 +131,12 @@ h1 {
   }
 
   .app-grid {
-    grid-template-columns: minmax(0, 320px);
+    grid-template-columns: minmax(0, 280px);
     justify-content: center;
     gap: 18px;
   }
 
   .app-card {
-    width: 100%;
+    width: min(100%, 280px);
   }
 }
